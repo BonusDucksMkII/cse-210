@@ -60,7 +60,10 @@ public class BreathingActivity : Activity
 
     public void DisplayBreathing()
     {
-        
+        Console.WriteLine("Breathe in...");
+        CountdownAnimation();
+        Console.WriteLine("Breathe out...");
+        CountdownAnimation();
     }
 }
 

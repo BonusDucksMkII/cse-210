@@ -64,7 +64,7 @@ class Program
                 {
                     case "1":
                         breathing.ActivityStart();
-                        breathing.DisplayCountdown();
+                        breathing.DisplayBreathing();
                         break;
                     case "2":
                         reflection.ActivityStart();
