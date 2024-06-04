@@ -3,8 +3,11 @@ public class Product
     public int ProductId { get; set ; }
     public double Price { get; set; }
     public int Quantity { get; set; }
-    public double TotalPrice()
+
+    public Product(int id, double price, int qty)
     {
-        return Price * Quantity;
+        ProductId = id;
+        Price = price;
+        Quantity = qty;
     }
 }
